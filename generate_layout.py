@@ -183,27 +183,27 @@ def get_layout():
         compatible = "zmk,combos";
         combo_ret {{
             timeout-ms = <50>;
-            key-positions = <21 22>;
+            key-positions = <18 19>;
             bindings = <&kp RETURN>;
         }};
         combo_rsh {{
             timeout-ms = <50>;
-            key-positions = <33 34>;
+            key-positions = <28 29>;
             bindings = <&kp RSHFT>;
         }};
         combo_squote {{
             timeout-ms = <50>;
-            key-positions = <19 20 21>;
+            key-positions = <16 17 18>;
             bindings = <&kp SQT>;
         }};
         combo_backtick {{
             timeout-ms = <50>;
-            key-positions = <31 32 33>;
+            key-positions = <27 28 29>;
             bindings = <&kp GRAVE>;
         }};
         combo_dquote {{
             timeout-ms = <50>;
-            key-positions = <7 8 9>;
+            key-positions = <6 7 8>;
             bindings = <&kp DQT>;
         }};
     }};
